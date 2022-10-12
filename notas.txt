@@ -1,0 +1,26 @@
+lembrete: usar node 16
+nvm use 16
+
+npm install -D tailwindcss postcss autoprefixer
+- postcss - tipo um gulp pra empacotar o tailwindcss
+- autoprefixer - pra adicionar aqueles: "webkit-" q precisava pra alguns browsers antigos pra adicionar tipo opacity
+
+
+
+npx tailwindcss init -p
+
+
+
+npm install --save clsx
+esse pacote permite criar condicionais para escolha de classe (tipo o q o angular já faz)
+
+
+
+npm install @radix-ui/react-slot
+Radix te dá components sem css.
+o slot basicamente pega todas as propriedades e repassa pro primeiro componente que vem dentro do children.
+No examplo, ele transformou o Text que era span em uma tag de paragrafo.
+
+
+parei em 54:20
+https://app.rocketseat.com.br/event/ignite-lab-04/reactjs/aula-02?utm_source=Active_Campaing&utm_medium=leads_cadastrados&utm_campaign=event-ignite_lab03&utm_term=email&utm_content=aula-02-no-ar

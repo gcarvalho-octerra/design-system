@@ -1,0 +1,5 @@
+/* Importando do tailwind, 3 bibliotecas */
+
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
