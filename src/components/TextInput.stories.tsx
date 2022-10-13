@@ -19,3 +19,11 @@ export default {
 
 
 export const Default: StoryObj<TextInputInputProps> = {}
+
+export const WithoutIcon: StoryObj<TextInputInputProps> = {
+    args: {
+        children: [
+            <TextInput.Input placeholder='Type your e-mail address'/>
+        ]
+    },
+}
